@@ -1,3 +1,6 @@
+/* 
+    https://github.com/amirfrahani
+*/ 
 *{
     margin: 0;
     padding: 0;
@@ -57,7 +60,7 @@ body {
     margin-top: .7rem;
     border-radius: 8px;
     border: none;
-    width: 75%;
+    width: 85%;
 }
 .question_repeater_field_wrappper table.question_repeater_field_table tbody td.question_repeater_field_item_bottom{
     margin-top: .8rem;
@@ -99,4 +102,15 @@ body {
     padding: .7rem;
     border-radius: 6px;
     box-shadow: #0030df8e 0px 3px 50px;
+}
+.empty_question_repeater_field_item {
+    display: none !important;
+}
+a.mygithub {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #685c5c;
 }
